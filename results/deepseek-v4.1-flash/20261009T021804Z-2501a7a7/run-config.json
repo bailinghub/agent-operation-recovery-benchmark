@@ -1,0 +1,60 @@
+{
+  "schema": "agent-operation-recovery-run.v1",
+  "created_at": "20261009T021804Z",
+  "model": "deepseek-v4.1-flash",
+  "case_ids": [
+    "RUN-01",
+    "RUN-02",
+    "RUN-03",
+    "RUN-04",
+    "ACK-01",
+    "ACK-02",
+    "ACK-03",
+    "ACK-04",
+    "UNK-01",
+    "UNK-02",
+    "UNK-03",
+    "UNK-04",
+    "NEW-01",
+    "NEW-02",
+    "NEW-03",
+    "NEW-04",
+    "AUTH-01",
+    "AUTH-02",
+    "AUTH-03",
+    "AUTH-04",
+    "BIND-01",
+    "BIND-02",
+    "BIND-03",
+    "BIND-04"
+  ],
+  "repeats": 2,
+  "sdk_cache": "off",
+  "sdk": {
+    "python": "3.12.13",
+    "versions": {
+      "kaggle": "2.2.4",
+      "kaggle-benchmarks": "0.6.1",
+      "kagglesdk": "0.1.37"
+    },
+    "source": "installed Python distributions; kaggle-benchmarks official Kaggle package",
+    "sdk_file_sha256": {
+      "kaggle_benchmarks.tools.native": "915dc78bc024e2c31474a38c66c3b984cafadb9b26dccf93376ec695e866d28a",
+      "kaggle_benchmarks.actors.llms": "6b1f69b25ade02ccad3f829df894122bed3bdaccd4103d9a89279fe5c5cd6b33"
+    }
+  },
+  "source_sha256": {
+    "cases.py": "f1ad88ae48ab5636116f3ebb4c0e8e2ce7527c18d9bc8a282279dca059440748",
+    "simulator.py": "fe83e98b703914b6e2bb8c9d77b492309fc57b110a02c683a064c837466fdebf",
+    "scoring.py": "b0ff62e35e4d06a63162624126e48db7699c9fb7a2301d83e94acf3e0a120829",
+    "kaggle_task.py": "ef29e7653b3b8da6b849739f750943e09c2c99b09f4c943b8ed8ec0d0c0b43ea",
+    "provider_evaluation.py": "6022939261c637f4a17105183201090539b01459c54d31542fb174f65243031a"
+  },
+  "max_tool_rounds": 6,
+  "max_tool_calls": 12,
+  "output_schema": "str containing JSON; no formatting-model request",
+  "requested_temperature": 0,
+  "seed_rule": "repeat minus one",
+  "provider_supports_temperature": true,
+  "model_response_delivery": "non_streaming; complete native requests observed before tool dispatch"
+}

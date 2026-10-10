@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.py[cod]
+generated/
+source/results/
+source/evidence/
+.env
+.env.*
+provider.json
+.DS_Store

@@ -1,0 +1,49 @@
+{
+  "schema": "agent-operation-recovery-public-release-audit.v1",
+  "checked_on": "2026-10-10",
+  "release_checks_passed": true,
+  "five_frozen_source_hashes_verified": true,
+  "all_eight_source_modules_byte_identical_to_reviewed_copy": true,
+  "preserved_candidate_files_byte_identical": 113,
+  "episode_files_byte_identical": 96,
+  "recorded_model_requests": 305,
+  "provider": "tencent-tokenhub",
+  "model_identifiers_preserved": [
+    "deepseek-v4-pro",
+    "deepseek-v4.1-flash"
+  ],
+  "original_evaluation_manifest_sha256": "a75b21a99f3df16541f669d1efa27f52676810078e3b8da27fc19bf932aa104e",
+  "license": {
+    "benchmark_code_and_authored_materials": "Apache-2.0",
+    "license_text_verified_against": "BailingHub Core LICENSE",
+    "license_sha256": "6cf63d87586c7c25c3ab8e62eef5c75bbaa982b0a6f9c00c59e2720255aac9ec",
+    "third_party_implementations_bundled": false,
+    "dependencies_retain_own_licenses": true
+  },
+  "offline_calibration": {
+    "tests": 49,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "success": true,
+    "model_api_calls": 0,
+    "network_attempts_blocked": 0,
+    "scripted_responses_only": true
+  },
+  "sensitive_pattern_scan": {
+    "categories": [
+      "machine_absolute_path",
+      "private_identity_or_project",
+      "development_provenance",
+      "secret_value",
+      "secret_prefix",
+      "private_key_material",
+      "personal_email"
+    ],
+    "findings": []
+  },
+  "packaging_model_api_calls": 0,
+  "reference_dependency_snapshot": "actual installed validation environment; not a retroactive original-run complete lock",
+  "result_transformations_in_this_release": null,
+  "platform_status": "external-provider research observations, not Kaggle leaderboard entries"
+}

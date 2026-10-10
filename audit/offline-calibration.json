@@ -1,0 +1,10 @@
+{
+  "tests": 49,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "success": true,
+  "model_api_calls": 0,
+  "network_attempts_blocked": 0,
+  "scripted_responses_only": true
+}

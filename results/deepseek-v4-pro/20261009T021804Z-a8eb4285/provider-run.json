@@ -1,0 +1,17 @@
+{
+  "provider": "tencent-tokenhub",
+  "endpoint_host": "tokenhub.tencentmaas.com",
+  "model": "deepseek-v4-pro",
+  "thinking_requested": "disabled",
+  "stream": false,
+  "automatic_retries": 0,
+  "timeout_seconds": 90,
+  "max_output_tokens_per_request": 1024,
+  "model_request_count": 139,
+  "request_errors": [],
+  "unexpected_reasoning_responses": 0,
+  "evaluation_id": "20261009-full96-v1",
+  "started_at": "2026-10-09T02:18:04.516395+00:00",
+  "completed_at": "2026-10-09T02:29:57.835122+00:00",
+  "execution": "local real provider calls; not a Kaggle leaderboard result"
+}

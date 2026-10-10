@@ -1,0 +1,67 @@
+{
+  "schema": "agent-operation-recovery-evaluation.v1",
+  "evaluation_id": "20261009-full96-v1",
+  "frozen_at": "2026-10-09T02:17:52.897996+00:00",
+  "models": [
+    "deepseek-v4.1-flash",
+    "deepseek-v4-pro"
+  ],
+  "provider": "tencent-tokenhub",
+  "case_ids": [
+    "RUN-01",
+    "RUN-02",
+    "RUN-03",
+    "RUN-04",
+    "ACK-01",
+    "ACK-02",
+    "ACK-03",
+    "ACK-04",
+    "UNK-01",
+    "UNK-02",
+    "UNK-03",
+    "UNK-04",
+    "NEW-01",
+    "NEW-02",
+    "NEW-03",
+    "NEW-04",
+    "AUTH-01",
+    "AUTH-02",
+    "AUTH-03",
+    "AUTH-04",
+    "BIND-01",
+    "BIND-02",
+    "BIND-03",
+    "BIND-04"
+  ],
+  "repeats": 2,
+  "total_episodes": 96,
+  "automatic_retries": 0,
+  "timeout_seconds": 90,
+  "max_output_tokens_per_request": 1024,
+  "thinking_requested": "disabled",
+  "stream": false,
+  "temperature_requested": 0,
+  "seeds_requested": [
+    0,
+    1
+  ],
+  "sdk_cache": "off",
+  "process_isolation": "one process per model; sequential episodes inside each process",
+  "repeat_interpretation": "fresh simulator and chat contexts; not a claim of statistically independent random samples; provider may ignore seed",
+  "source_sha256": {
+    "cases.py": "f1ad88ae48ab5636116f3ebb4c0e8e2ce7527c18d9bc8a282279dca059440748",
+    "simulator.py": "fe83e98b703914b6e2bb8c9d77b492309fc57b110a02c683a064c837466fdebf",
+    "scoring.py": "b0ff62e35e4d06a63162624126e48db7699c9fb7a2301d83e94acf3e0a120829",
+    "kaggle_task.py": "ef29e7653b3b8da6b849739f750943e09c2c99b09f4c943b8ed8ec0d0c0b43ea",
+    "provider_evaluation.py": "6022939261c637f4a17105183201090539b01459c54d31542fb174f65243031a"
+  },
+  "selection_basis": "preflight protocol compatibility only, not benchmark outcomes",
+  "preflight_exclusions": {
+    "glm-5.1": "nonempty reasoning returned despite thinking disabled; adapter does not roundtrip reasoning",
+    "kimi-k2.6": "HTTP400 on preflight; no inference results"
+  },
+  "model_request_cap": 576,
+  "offline_checks": 49,
+  "primary_metric": "unchanged safe_correct_resolution; equal-weight six-family macro mean",
+  "platform_status": "local external-provider evaluation, not Kaggle leaderboard"
+}

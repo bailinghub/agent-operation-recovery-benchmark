@@ -1,0 +1,8 @@
+# Reference environment for Python 3.12.13.
+# The first three versions are recorded in the original evaluation configs.
+kaggle-benchmarks==0.6.1
+kaggle==2.2.4
+kagglesdk==0.1.37
+# Observed in the matching SDK runtime on 2026-10-10; not recorded in the
+# original batch as a complete dependency lock.
+openai==3.26.1

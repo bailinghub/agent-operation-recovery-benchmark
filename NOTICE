@@ -1,0 +1,12 @@
+Agent Operation Recovery Benchmark
+
+The benchmark code and accompanying authored materials in this package
+are distributed under the Apache License, Version 2.0.
+
+Recorded model outputs are retained as provider-generated research
+evidence. Actual model identifiers and external API provenance are
+preserved. No ownership of provider trademarks, model weights, or
+third-party libraries is asserted.
+
+Third-party dependencies are imported through their public interfaces
+and are not bundled. Each dependency retains its own license.
